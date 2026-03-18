@@ -1,10 +1,9 @@
 <p align="center">
   <a href="https://bismillahcss.github.io/">
-    <img src="https://github.com/user-attachments/assets/090a4b96-d98f-4fdb-98c4-e46815ca20e7" alt="BismillahCSS Logo" width="200" height="auto">
+    <img src="https://github.com/user-attachments/assets/090a4b96-d98f-4fdb-98c4-e46815ca20e7" alt="BismillahCSS Banner">
   </a>
 </p>
 
-<h1 align="center">BismillahCSS</h1>
 
 <p align="center">
   <strong>A modern, high-performance, and utility-first CSS framework for rapid UI development.</strong>
