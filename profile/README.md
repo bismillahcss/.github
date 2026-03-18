@@ -2,9 +2,6 @@
   <a href="https://bismillahcss.github.io/">
     <img src="https://github.com/user-attachments/assets/090a4b96-d98f-4fdb-98c4-e46815ca20e7" alt="BismillahCSS" />
   </a>
-
-  <br />
-  <br />
   <br />
   <a href="https://www.npmjs.com/package/bismillahcss">
     <img src="https://img.shields.io/npm/v/bismillahcss?color=blue&style=flat-square" alt="npm version" />
