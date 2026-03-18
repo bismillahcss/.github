@@ -20,11 +20,8 @@
 
 ---
 
-## Introduction
 
 **BismillahCSS** is a utility-first CSS framework designed for speed, flexibility, and performance. Built with modern web development in mind, it provides a powerful set of low-level utility classes that allow you to build custom designs without ever leaving your HTML.
-
-Developed by **Mubashir Ali** (Bioinformatician) as part of the **Code with Bismillah** initiative, it aims to simplify the bridge between complex data visualization and beautiful user interfaces.
 
 ## Key Features
 
