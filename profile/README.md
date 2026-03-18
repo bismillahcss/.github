@@ -3,9 +3,6 @@
     <img src="https://github.com/user-attachments/assets/090a4b96-d98f-4fdb-98c4-e46815ca20e7" alt="BismillahCSS" />
   </a>
 
-<img width="1329" height="258" alt="image" src="" />
-
-  
   <br />
   <br />
   <br />
