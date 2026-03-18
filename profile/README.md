@@ -1,7 +1,11 @@
 <p align="center">
-  <a href="https://www.npmjs.com/package/bismillahcss">
-    <img src="https://github.com/user-attachments/assets/6ec6954b-76f8-4490-9bf5-f2372610e902" alt="npm version" />
+  <a href="https://bismillahcss.github.io/">
+    <img src="https://github.com/user-attachments/assets/090a4b96-d98f-4fdb-98c4-e46815ca20e7" alt="BismillahCSS" />
   </a>
+
+<img width="1329" height="258" alt="image" src="" />
+
+  
   <br />
   <br />
   <br />
