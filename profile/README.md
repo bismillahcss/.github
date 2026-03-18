@@ -13,6 +13,18 @@
   <a href="https://www.npmjs.com/package/bismillahcss"><img src="https://img.shields.io/npm/v/bismillahcss.svg?style=flat-square" alt="NPM Version"></a>
   <a href="https://github.com/bismillahcss/bismillahcss/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License"></a>
   <a href="https://bismillahcss.github.io/"><img src="https://img.shields.io/badge/docs-v1.9.0-green.svg?style=flat-square" alt="Documentation"></a>
+  <a href="https://www.npmjs.com/package/bismillahcss">
+    <img src="https://img.shields.io/npm/dt/bismillahcss?color=green&style=flat-square" alt="downloads" />
+  </a>
+  <a href="https://github.com/BismillahCSS/bismillahcss-framework/blob/main/LICENSE">
+    <img src="https://img.shields.io/npm/l/bismillahcss?style=flat-square" alt="license" />
+  </a>
+  <a href="https://github.com/BismillahCSS/bismillahcss-framework/stargazers">
+    <img src="https://img.shields.io/github/stars/BismillahCSS/bismillahcss?style=flat-square" alt="GitHub stars" />
+  </a>
+  <a href="https://github.com/BismillahCSS/bismillahcss-framework/issues">
+    <img src="https://img.shields.io/github/issues/BismillahCSS/bismillahcss?style=flat-square" alt="GitHub issues" />
+  </a>
 </p>
 
 ---
