@@ -1,126 +1,129 @@
 <p align="center">
   <a href="https://bismillahcss.github.io/">
-    <img src="https://github.com/user-attachments/assets/090a4b96-d98f-4fdb-98c4-e46815ca20e7" alt="BismillahCSS" />
-  </a>
-  <br />
-  <a href="https://www.npmjs.com/package/bismillahcss">
-    <img src="https://img.shields.io/npm/v/bismillahcss?color=blue&style=flat-square" alt="npm version" />
-  </a>
-  <a href="https://www.npmjs.com/package/bismillahcss">
-    <img src="https://img.shields.io/npm/dt/bismillahcss?color=green&style=flat-square" alt="downloads" />
-  </a>
-  <a href="https://github.com/BismillahCSS/bismillahcss-framework/blob/main/LICENSE">
-    <img src="https://img.shields.io/npm/l/bismillahcss?style=flat-square" alt="license" />
-  </a>
-  <a href="https://github.com/BismillahCSS/bismillahcss-framework/stargazers">
-    <img src="https://img.shields.io/github/stars/BismillahCSS/bismillahcss?style=flat-square" alt="GitHub stars" />
-  </a>
-  <a href="https://github.com/BismillahCSS/bismillahcss-framework/issues">
-    <img src="https://img.shields.io/github/issues/BismillahCSS/bismillahcss?style=flat-square" alt="GitHub issues" />
+    <img src="https://github.com/user-attachments/assets/090a4b96-d98f-4fdb-98c4-e46815ca20e7" alt="BismillahCSS Logo" width="200" height="auto">
   </a>
 </p>
 
+<h1 align="center">BismillahCSS</h1>
 
-A utility-first CSS framework designed for rapid, flexible, and customizable web development. BismillahCSS aims to streamline your design workflow with a focus on ease of use, simplicity, and performance.
+<p align="center">
+  <strong>A modern, high-performance, and utility-first CSS framework for rapid UI development.</strong>
+</p>
 
-## 🌟 Features
+<p align="center">
+  <a href="https://www.npmjs.com/package/bismillahcss"><img src="https://img.shields.io/npm/v/bismillahcss.svg?style=flat-square" alt="NPM Version"></a>
+  <a href="https://github.com/bismillahcss/bismillahcss/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License"></a>
+  <a href="https://bismillahcss.github.io/"><img src="https://img.shields.io/badge/docs-v1.9.0-green.svg?style=flat-square" alt="Documentation"></a>
+</p>
 
-- **Utility-first design** – Get the building blocks to craft beautiful designs quickly and efficiently.
-- **Custom utilities** – Fully customizable utility classes for layout, typography, colors, shadows, and more.
-- **Advanced shadow system** – Implement shadows with fine-grain control using multiple utilities.
-- **Button system** – Predefined button styles for consistent UI components.
-- **Notification alert system** – Easy-to-use alert system to notify users of important messages.
-- **Glassmorphism cards** – Stylish and modern card components based on the glassmorphism design trend.
-- **Dark mode support** – Built-in dark mode support for a seamless experience.
-- **Customizable** – Easily override defaults to fit your unique design requirements.
+---
 
-## 📦 Installation
+## Introduction
 
-### Using npm:
+**BismillahCSS** is a utility-first CSS framework designed for speed, flexibility, and performance. Built with modern web development in mind, it provides a powerful set of low-level utility classes that allow you to build custom designs without ever leaving your HTML.
 
+Developed by **Mubashir Ali** (Bioinformatician) as part of the **Code with Bismillah** initiative, it aims to simplify the bridge between complex data visualization and beautiful user interfaces.
+
+## Key Features
+
+- **Utility-First**: Rapidly build custom interfaces without writing a single line of custom CSS.
+- **Fully Responsive**: Mobile-first grid system and responsive utilities for every screen size.
+- **Deeply Customizable**: Easily extend the theme with custom colors, spacing, and fonts via `bismillah.config.js`.
+- **Pre-built Components**: Access a collection of accessible, professional-grade UI components.
+- **Performance Oriented**: Built with PostCSS for zero-runtime overhead and tiny bundle sizes.
+- **Native Dark Mode**: Support for system-level and manual dark mode switching.
+
+## Installation
+
+### Using CDN (Quick Start)
+Add the following to your `<head>` tag:
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bismillahcss@latest/dist/bismillah.min.css">
+```
+
+### Using NPM (Recommended)
 ```bash
 npm install bismillahcss
 ```
 
-### CDN:
-
-You can also use BismillahCSS directly via CDN:
-
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bismillahcss/dist/bismillah.min.css">
+Then import it in your main CSS or JS file:
+```javascript
+// In your JS/TS file
+import "bismillahcss/dist/bismillah.css";
+```
+or 
+```css
+/* In your CSS file */
+@import "bismillahcss/dist/bismillah.css";
 ```
 
-## 🔧 Usage
+## Usage Example
 
-Start using BismillahCSS by linking the `bismillah.min.css` file in your HTML:
-
-```html
-<head>
-    <link rel="stylesheet" href="path/to/bismillah.min.css">
-</head>
-```
-
-Use utility classes like `bismillah-bg-blue`, `bismillah-text-center`, `bismillah-shadow-md`, and more to style your elements quickly.
-
-### Example:
+Build a beautiful card in seconds:
 
 ```html
-<button class="bismillah-btn bismillah-bg-blue bismillah-text-white bismillah-shadow-md">
-    Click Me!
-</button>
+<div class="bismillah-container bismillah-mx-auto bismillah-p-10">
+  <div class="bismillah-max-w-sm bismillah-rounded bismillah-overflow-hidden bismillah-shadow-lg bismillah-bg-white bismillah-p-6">
+    <h2 class="bismillah-text-2xl bismillah-font-bold bismillah-mb-2 bismillah-text-primary">
+      Hello BismillahCSS!
+    </h2>
+    <p class="bismillah-text-gray-700 bismillah-text-base">
+      This is a simple card component built using BismillahCSS utility classes.
+    </p>
+    <button class="bismillah-mt-4 bismillah-bg-blue-600 bismillah-text-white bismillah-py-2 bismillah-px-4 bismillah-rounded bismillah-hover:bg-blue-700 bismillah-transition">
+      Get Started
+    </button>
+  </div>
+</div>
 ```
 
-## 📚 Documentation
+## Customization
 
-Detailed documentation of all utilities, components, and configurations is available in the `docs` folder.
+Initialize your configuration file:
+```bash
+npx bismillahcss init
+```
 
-### Key Components:
-
-- **Buttons**: Use `bismillah-btn` for styled buttons.
-- **Cards**: Glassmorphism cards like `bismillah-card`.
-- **Alerts**: Easily implement notifications with `bismillah-alert`.
-
-## ⚙️ Configuration
-
-BismillahCSS is highly configurable. Modify the `default-config.js` file to customize the framework's base styles, utilities, and more.
-
+Customize your `bismillah.config.js`:
 ```javascript
 module.exports = {
-    colors: {
-        primary: '#1D4ED8',
-        secondary: '#F97316',
-    },
-    spacing: {
-        small: '8px',
-        medium: '16px',
-        large: '32px',
-    },
-    // Customize further...
-};
+  theme: {
+    extend: {
+      colors: {
+        brand: '#4F46E5',
+        bio: '#10B981',
+      },
+      spacing: {
+        '128': '32rem',
+      }
+    }
+  }
+}
 ```
 
-## 🧪 Testing
+## Quick Links
 
-Tests for utilities and components are available in the `tests` folder to ensure all features work correctly. Run the tests with your preferred testing framework.
+- [Official Documentation](https://bismillahcss.github.io/docs)
+- [Component Showcase](https://bismillahcss.github.io/components)
+- [Playground](https://bismillahcss.github.io/playground)
+- [Blog](https://bismillahcss.github.io/blog)
+- [Community](https://bismillahcss.github.io/community)
 
-## 🌱 Contributing
+## Developed By
 
-Contributions are always welcome! Feel free to open issues or pull requests to improve BismillahCSS. Here's how you can contribute:
+**Mubashir Ali**
+*Bioinformatician & Data Scientist*
+Founder of **Code with Bismillah**
 
-1. Fork the repository  
-2. Create a new branch (`git checkout -b feature-name`)  
-3. Commit your changes (`git commit -am 'Add feature'`)  
-4. Push to the branch (`git push origin feature-name`)  
-5. Open a Pull Request  
+- GitHub: [@mubashir-ali-bio](https://github.com/bismillahcss)
+- Website: [codewithbismillah.online](https://codewithbismillah.online)
 
-## 🔗 Links
+## License
 
-- **Website**: [BismillahCSS Documentation](#)  
-- **License**: [MIT License](#)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📜 License
+---
 
-This project is licensed under the MIT License - see the `LICENSE` file for details.
-
-Thank you for using BismillahCSS! 🙏  
-Let's build beautiful, responsive, and efficient websites together!  
+<p align="center">
+  Built by the BismillahCSS Community
+</p>
